@@ -381,8 +381,8 @@
         "nets": [
           "Net-(C101-Pad1)",
           "Net-(C101-Pad2)",
-          "Net-(F101-Pad1)",
-          "Net-(J106-Pad3)"
+          "Net-(F102-Pad1)",
+          "Net-(J105-Pad3)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
