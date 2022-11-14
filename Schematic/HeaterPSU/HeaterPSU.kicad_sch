@@ -3282,7 +3282,7 @@
   (symbol (lib_id "power:GNDPWR") (at 158.75 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 622342f8-6bd1-4f8b-a9ba-f6e8dc8e4399)
-    (property "Reference" "#PWR?" (id 0) (at 158.75 79.375 0)
+    (property "Reference" "#PWR0101" (id 0) (at 158.75 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 158.623 79.375 0)
@@ -4176,8 +4176,8 @@
     (in_bom yes) (on_board yes)
     (uuid faab03c5-3fef-42db-85d3-a72d40781aee)
     (property "Reference" "L201" (id 0) (at 101.6 61.214 90))
-    (property "Value" "10µH 5.7A" (id 1) (at 101.6 63.5254 90))
-    (property "Footprint" "myDevices:L_8.5x8_H5.4_HandSolder" (id 2) (at 101.6 66.04 0)
+    (property "Value" "10µH 3.3A" (id 1) (at 101.6 63.5254 90))
+    (property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering" (id 2) (at 101.6 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 101.6 66.04 0)
@@ -4220,6 +4220,9 @@
     (path "/700399db-4724-43e2-a82a-c1f817944bb2"
       (reference "#FLG0203") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/622342f8-6bd1-4f8b-a9ba-f6e8dc8e4399"
+      (reference "#PWR0101") (unit 1) (value "GNDPWR") (footprint "")
+    )
     (path "/6848f8f4-676f-4a5a-a1aa-4cbc7c67eab0"
       (reference "#PWR0201") (unit 1) (value "VDC") (footprint "")
     )
@@ -4261,9 +4264,6 @@
     )
     (path "/1f5fc5d0-6d6a-4d87-b4e9-ab9fade88324"
       (reference "#PWR0214") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/622342f8-6bd1-4f8b-a9ba-f6e8dc8e4399"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/8c88fa34-800c-4446-a54a-0c4fd5ef6fa1"
       (reference "C201") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -4338,7 +4338,7 @@
       (reference "K201") (unit 1) (value "Relay_TE_OJT_SH_124DM") (footprint "myDevices:Relay_TE_OJT_SH_124")
     )
     (path "/faab03c5-3fef-42db-85d3-a72d40781aee"
-      (reference "L201") (unit 1) (value "10µH 5.7A") (footprint "myDevices:L_8.5x8_H5.4_HandSolder")
+      (reference "L201") (unit 1) (value "10µH 3.3A") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering")
     )
     (path "/b3accf1f-481c-4411-9119-c541e45e171c"
       (reference "Q201") (unit 1) (value "IRF4905") (footprint "Package_TO_SOT_SMD:TO-263-2")
