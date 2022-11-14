@@ -810,7 +810,6 @@
     )
   )
 
-
   (junction (at 173.99 112.395) (diameter 0) (color 0 0 0 0)
     (uuid 02e25128-36e2-46bc-a9d5-6ec54d050d87)
   )
@@ -1623,10 +1622,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 172.085 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e68d4bfc-28fa-42c7-b027-c6bcd125d5f6)
-    (property "Reference" "C102" (id 0) (at 175.895 75.3111 0)
+    (property "Reference" "C102" (id 0) (at 175.26 72.7709 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "220µF 35V" (id 1) (at 175.895 72.7711 0)
+    (property "Value" "470µF 25V" (id 1) (at 175.26 75.3109 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" (id 2) (at 171.1198 78.74 0)
@@ -1728,7 +1727,7 @@
       (reference "C101") (unit 1) (value "47nF X2") (footprint "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4")
     )
     (path "/e68d4bfc-28fa-42c7-b027-c6bcd125d5f6"
-      (reference "C102") (unit 1) (value "220µF 35V") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
+      (reference "C102") (unit 1) (value "470µF 25V") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm")
     )
     (path "/089898c7-9db1-4682-8c8f-00decb94c3b6"
       (reference "D101") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
