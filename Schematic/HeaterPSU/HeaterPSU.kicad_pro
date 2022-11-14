@@ -383,8 +383,6 @@
           "GNDPWR",
           "HeaterSense1",
           "HeaterSense2",
-          "Net-(C1-Pad1)",
-          "Net-(J1-Pad2)",
           "VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -412,7 +410,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 200,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
