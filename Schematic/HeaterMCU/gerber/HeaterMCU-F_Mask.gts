@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*
-G04 #@! TF.CreationDate,2022-11-14T13:49:07+01:00*
+G04 #@! TF.CreationDate,2022-11-14T17:51:37+01:00*
 G04 #@! TF.ProjectId,HeaterMCU,48656174-6572-44d4-9355-2e6b69636164,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2022-11-14 13:49:07*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2022-11-14 17:51:37*
 %MOMM*%
 %LPD*%
 G01*
@@ -201,8 +201,8 @@ D13*
 X131800000Y-75337500D03*
 X131800000Y-77062500D03*
 D32*
-X140900000Y-77112500D03*
 X140900000Y-75287500D03*
+X140900000Y-77112500D03*
 D27*
 X144937500Y-50750000D03*
 X146762500Y-50750000D03*

@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HeaterDisplay.kicad_pro",
+    "filename": "HeaterMCU.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -381,8 +381,6 @@
         "nets": [
           "+5V",
           "GNDPWR",
-          "Net-(C12-Pad2)",
-          "Net-(C5-Pad2)",
           "VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -410,7 +408,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 300,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
