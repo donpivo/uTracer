@@ -1788,7 +1788,6 @@
     )
   )
 
-
   (junction (at 95.885 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 03bc0e64-8e0d-4d7a-9f6a-d5921aeac7c2)
   )
@@ -4085,7 +4084,7 @@
     (property "Reference" "R211" (id 0) (at 148.082 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3.3kΩ" (id 1) (at 147.32 106.045 0)
+    (property "Value" "4.3kΩ" (id 1) (at 147.32 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 154.305 104.775 0)
@@ -4377,7 +4376,7 @@
       (reference "R210") (unit 1) (value "470kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/de1ddc97-c76c-452e-a2eb-b320798f7b28"
-      (reference "R211") (unit 1) (value "3.3kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R211") (unit 1) (value "4.3kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/4a9313f8-9a6f-4a3f-98df-f7f3e11fea79"
       (reference "R212") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
