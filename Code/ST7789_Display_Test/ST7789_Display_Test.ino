@@ -25,7 +25,7 @@ Arduino_ST7789 lcd = Arduino_ST7789(TFT_DC, TFT_RST);
 
 void setup() 
 {
-  Serial.begin(9600);
+  // Serial.begin(9600);
   lcd.init();
   lcd.setRotation(3);
   lcd.fillScreen(BLACK);
