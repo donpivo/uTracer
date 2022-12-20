@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include <INA219.h>
-
 #define SHUNT_MAX_V 0.125  
 #define BUS_MAX_V   32.0  
 #define MAX_CURRENT 5 
