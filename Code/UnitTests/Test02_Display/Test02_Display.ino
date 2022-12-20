@@ -16,8 +16,8 @@
 #include <Adafruit_GFX.h>
 
 
-#define TFT_DC  7
-#define TFT_RST 8
+#define TFT_DC  A1
+#define TFT_RST A0
 #include <Arduino_ST7789_Fast.h>
 
 
@@ -25,8 +25,10 @@ Arduino_ST7789 lcd = Arduino_ST7789(TFT_DC, TFT_RST);
 
 void setup() 
 {
-  // Serial.begin(9600);
+  pinMode(10, OUTPUT);
+  digitalWrite(10, HIGH);
   lcd.init();
+  
   lcd.setRotation(3);
   lcd.fillScreen(BLACK);
   lcd.setTextSize(3);
@@ -53,7 +55,9 @@ void setup()
   lcd.fillRect(0, 60, 180, 50, BLACK);
   lcd.setTextColor(WHITE);
   lcd.setCursor(0, 60);
-  lcd.print(" 6.33");
+  lcd.print(6.33);
+  
+  
 }
 
 void loop(void) 
@@ -61,9 +65,5 @@ void loop(void)
 
 }
 
-unsigned long testText(int rot)
-{
- 
-}
 
 

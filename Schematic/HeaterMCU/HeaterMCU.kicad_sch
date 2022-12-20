@@ -2688,7 +2688,7 @@
     (property "Reference" "R302" (id 0) (at 201.295 28.575 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "560Ω" (id 1) (at 201.295 30.48 90)
+    (property "Value" "330Ω" (id 1) (at 201.295 30.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 203.835 32.385 0)
@@ -2760,7 +2760,7 @@
     (property "Reference" "R303" (id 0) (at 201.295 37.465 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "560Ω" (id 1) (at 201.295 39.37 90)
+    (property "Value" "330Ω" (id 1) (at 201.295 39.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 203.835 41.275 0)
@@ -3218,7 +3218,7 @@
     (property "Reference" "D305" (id 0) (at 148.463 166.4716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "\"+5V\"" (id 1) (at 148.463 168.783 90)
+    (property "Value" "\"+3.3V\"" (id 1) (at 148.463 168.783 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 146.685 167.64 0)
@@ -3272,7 +3272,7 @@
     (property "Reference" "R301" (id 0) (at 201.295 20.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "560Ω" (id 1) (at 201.295 22.225 90)
+    (property "Value" "330Ω" (id 1) (at 201.295 22.225 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 203.835 24.13 0)
@@ -4318,7 +4318,7 @@
       (reference "D304") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/6f303d0b-208d-42bf-abbe-cd09ce55af24"
-      (reference "D305") (unit 1) (value "\"+5V\"") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D305") (unit 1) (value "\"+3.3V\"") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/328196f7-7481-4b7d-8d89-b35fad318902"
       (reference "FB301") (unit 1) (value "FerriteBead_Small") (footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -4351,13 +4351,13 @@
       (reference "L301") (unit 1) (value "10µH 1A") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-20xx_HandSoldering")
     )
     (path "/70e921c9-9afe-4b38-afa0-ace94eae71a3"
-      (reference "R301") (unit 1) (value "560Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R301") (unit 1) (value "330Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/183290ea-f29b-4259-ab3f-5f72f5a8e50e"
-      (reference "R302") (unit 1) (value "560Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R302") (unit 1) (value "330Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/202dcc76-70ac-4ba6-8902-b4e09a3a2b08"
-      (reference "R303") (unit 1) (value "560Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R303") (unit 1) (value "330Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/76b5ac93-d756-4ab8-b6a3-359b223c85f3"
       (reference "R304") (unit 1) (value "1MΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")

@@ -3537,7 +3537,7 @@
     (property "Reference" "R214" (id 0) (at 160.782 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.3kΩ" (id 1) (at 160.02 118.11 0)
+    (property "Value" "3.9kΩ" (id 1) (at 160.02 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 167.005 116.84 0)
@@ -3878,7 +3878,7 @@
       (reference "R213") (unit 1) (value "470kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/de1ddc97-c76c-452e-a2eb-b320798f7b28"
-      (reference "R214") (unit 1) (value "4.3kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R214") (unit 1) (value "3.9kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/4a9313f8-9a6f-4a3f-98df-f7f3e11fea79"
       (reference "R215") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
