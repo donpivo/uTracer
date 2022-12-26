@@ -1,4 +1,4 @@
-20999701163886671
+21014800789617429
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60353,13 +60353,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PTV09A-4025F-B103
-PTV09A-4025F-B103
-
-
-0
-5
-5
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -73977,6 +73970,13 @@ Potentiometer vertical Bourns PRS11S
 5
 Potentiometer_SMD
 Potentiometer_Bourns_TC33X_Vertical
+Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf
+Potentiometer Bourns TC33X Vertical
+0
+3
+3
+Potentiometer_SMD
+Potentiometer_TT_35W
 Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf
 Potentiometer Bourns TC33X Vertical
 0
@@ -87976,6 +87976,13 @@ myDevices
 3
 3
 myDevices
+0527450897
+0527450897
+Connector
+0
+10
+10
+myDevices
 B0505S
 
 
@@ -88438,6 +88445,13 @@ KF2510-8P
 8
 8
 myDevices
+LED_3mm_pcb_inset
+
+
+0
+2
+2
+myDevices
 LED_3mm_reverse
 
 
@@ -88448,6 +88462,20 @@ myDevices
 LED_4014
 LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED castellated
+0
+2
+2
+myDevices
+LED_Everlight_Side_1x2.1mm
+
+
+0
+2
+2
+myDevices
+LED_LTW-206DCG-BTH
+
+
 0
 2
 2
@@ -89012,6 +89040,13 @@ RoundPad_0.8
 1
 1
 myDevices
+SIRA24DP-T1-GE3
+
+
+0
+9
+3
+myDevices
 SJ3501SMTTR
 SJ-3501-SMT-TR-2
 Connector
@@ -89193,6 +89228,20 @@ connector
 0
 1
 1
+myDevices
+SolderWirePad_1x02
+Wire solder connection
+connector
+0
+2
+2
+myDevices
+SolderWirePad_1x03
+Wire solder connection
+connector
+0
+3
+3
 myDevices
 SolderWirePad_1x04
 Wire solder connection
@@ -89459,6 +89508,20 @@ Toggle_sw_submin
 0
 7
 7
+myDevices
+Transauto_LED_Strip
+
+
+0
+4
+4
+myDevices
+Transauto_LED_Strip_Narrow
+
+
+0
+4
+4
 myDevices
 Transformer_Block_AVB2.3
 AVB2.3/2/12
