@@ -4119,7 +4119,7 @@
     (property "Reference" "R205" (id 0) (at 121.92 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "300Ω" (id 1) (at 121.92 59.055 0)
+    (property "Value" "220Ω" (id 1) (at 121.92 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 118.237 57.785 90)
@@ -4243,7 +4243,7 @@
     (property "Reference" "C210" (id 0) (at 22.86 123.825 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10µF 50V" (id 1) (at 18.415 125.73 0)
+    (property "Value" "10µF 35V" (id 1) (at 18.415 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 29.5148 120.65 0)
@@ -4652,7 +4652,7 @@
       (reference "C209") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/bb18a299-7699-4466-9b2d-700e0d61665f"
-      (reference "C210") (unit 1) (value "10µF 50V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C210") (unit 1) (value "10µF 35V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/fb83581e-89da-405d-81be-21921805dc14"
       (reference "C211") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4727,7 +4727,7 @@
       (reference "R204") (unit 1) (value "10mΩ") (footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
     )
     (path "/acdc8974-c683-421f-9729-317698c4e535"
-      (reference "R205") (unit 1) (value "300Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R205") (unit 1) (value "220Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/4ff606ef-3125-46e2-b957-680ff1671858"
       (reference "R206") (unit 1) (value "3.9kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
