@@ -8,14 +8,14 @@
 #define SHUNT_MAX_V 0.03  
 #define BUS_MAX_V   32.0  
 #define MAX_CURRENT 5 
-#define SHUNT_R   0.01
+#define SHUNT_R   0.0107
 INA219 ina219;
 
 //Display Settings and Initialization
 #define SCR_WD   240
 #define SCR_HT   240
-#define DISP_DC  A1
-#define DISP_RST A0
+#define DISP_DC  10
+#define DISP_RST 9
 Arduino_ST7789 display = Arduino_ST7789(DISP_DC, DISP_RST);
 
 //IO Pins
@@ -31,18 +31,20 @@ Arduino_ST7789 display = Arduino_ST7789(DISP_DC, DISP_RST);
 
 
 //Global variables
-int heaterStatus=0;
-unsigned long heaterStartTime;
+bool heaterOn = false;
+bool currentLimit = false;
 unsigned long lastMeasurementTime;
 float lastVoltage=-1;
 float lastCurrent=-1;
 
 //Other settings
-#define MEASUREMENT_INTERVAL 500 //milliseconds
+#define MEASUREMENT_INTERVAL 250 //milliseconds
 
 
 void setup() 
 {
+  //Status LED: BOOT
+  digitalWrite(LED_MCU_STATUS, LOW);
   //INA219 Power Monitor Initialization and Configuration
   ina219.begin();
   ina219.configure(INA219::RANGE_32V, INA219::GAIN_1_40MV, INA219::ADC_32SAMP, INA219::ADC_32SAMP, INA219::CONT_SH_BUS);
@@ -52,35 +54,28 @@ void setup()
   display.setRotation(3);
   display.fillScreen(BLACK);
   //Configure IO pins
-  pinMode(LED_MCU_STATUS, OUTPUT);
-  digitalWrite(LED_MCU_STATUS, LOW);
+  
   pinMode(LED_HEATER, OUTPUT);
+  pinMode(LED_HIGH_VOLTAGE, OUTPUT);
+  pinMode(LED_CURRENT_LIMIT, OUTPUT);
+  pinMode(PIN_PSU_EN, OUTPUT);
+  pinMode(PIN_OUT_EN, OUTPUT);
+  pinMode(FLAG_HIGH_VOLTAGE, INPUT);
+  pinMode(FLAG_HEATER_FILT, INPUT);
+  pinMode(FLAG_CUR_LIM_FILT, INPUT);
+  digitalWrite(LED_MCU_STATUS, HIGH);
+  digitalWrite(PIN_PSU_EN, HIGH);
+  delay(1000);
+  digitalWrite(PIN_OUT_EN, HIGH);
 }
 
 void loop() 
 {
+  currentLimit=!digitalRead(FLAG_CUR_LIM_FILT);
+  digitalWrite(LED_CURRENT_LIMIT, currentLimit);
   if(millis()-lastMeasurementTime>MEASUREMENT_INTERVAL)
   {
-    if(digitalRead(FlagMBHeaterActive))
-    {
-      if(heaterStatus==0) 
-      {
-        heaterStatus=1;
-        updateDisplayHeaterStatus(heaterStatus);
-        heaterStartTime=millis();
-      }
-      if((heaterStatus==1)&&(millis()-heaterStartTime>heaterSlowStart))
-      {
-        heaterStatus=2;
-        updateDisplayHeaterStatus(heaterStatus);
-      }
-    }
-    else if(heaterStatus>0)
-    {
-      heaterStatus=0;
-      updateDisplayHeaterStatus(heaterStatus);
-    }
-  
+    
     float voltage=round1(ina219.busVoltage());
     if(voltage!=lastVoltage)
     {

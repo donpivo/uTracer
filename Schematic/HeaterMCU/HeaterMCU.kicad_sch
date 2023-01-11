@@ -1533,9 +1533,9 @@
 
   (no_connect (at 189.23 109.22) (uuid 1df17f4c-fe64-4521-9920-ec1484941d73))
   (no_connect (at 231.14 66.675) (uuid 1fa77745-c036-4dba-bf34-3687d5db7e4b))
+  (no_connect (at 231.14 61.595) (uuid 27ff23aa-d8b9-46e2-8925-f023ede55ad5))
   (no_connect (at 231.14 71.755) (uuid 39cf1645-a831-48cf-968f-d3e8edebcdcb))
   (no_connect (at 46.99 33.02) (uuid 58fedc5c-c777-4d0a-ac57-470d4947754f))
-  (no_connect (at 231.14 46.355) (uuid c13087cb-ef93-418a-a581-ae0ba834a6e6))
   (no_connect (at 100.33 158.75) (uuid d15ee22d-734f-4b62-912e-67587922df90))
 
   (wire (pts (xy 109.855 43.18) (xy 79.375 43.18))
@@ -2644,10 +2644,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LED_MCU_STATUS" (shape output) (at 231.14 61.595 180) (fields_autoplaced)
+  (global_label "LED_MCU_STATUS" (shape output) (at 231.14 46.355 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 77d2c66a-9a72-4be1-8725-03b189ca084e)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 212.5193 61.5156 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 212.5193 46.2756 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
