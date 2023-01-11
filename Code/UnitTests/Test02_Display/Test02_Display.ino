@@ -14,8 +14,8 @@
 #define SCR_HT   240
 #include <SPI.h>
 #include <Adafruit_GFX.h>
-#define TFT_DC  A1
-#define TFT_RST A0
+#define TFT_DC  10
+#define TFT_RST 9
 #include <Arduino_ST7789_Fast.h>
 
 

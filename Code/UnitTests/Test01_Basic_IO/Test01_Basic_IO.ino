@@ -1,24 +1,33 @@
-#define LED_MCU_ON 12
-#define LED_Heater_Start 10
-#define LED_Heater_ON 9
-#define FlagHighVoltage 3
-#define FlagMBHeaterActive 4
-#define Heater_EN 5
-#define Heater_PWM D6
+#define LED_MCU_STATUS 12
+#define LED_Heater 8
+#define LED_HighVoltage 5
+#define LED_CurrentLimit 7
+#define PIN_PSU_EN A0
+#define PIN_OUT_EN A2
+
+
 
 void setup() 
 {
-  pinMode(Heater_EN, OUTPUT);
-  digitalWrite(Heater_EN, HIGH);
-  pinMode(LED_MCU_ON, OUTPUT);
-  pinMode(LED_Heater_Start, OUTPUT);
-  pinMode(LED_Heater_ON, OUTPUT);
-  digitalWrite(LED_MCU_ON, HIGH);
+  pinMode(LED_MCU_STATUS, OUTPUT);
+  pinMode(LED_Heater, OUTPUT);
+  pinMode(LED_HighVoltage, OUTPUT);
+  pinMode(LED_CurrentLimit, OUTPUT);
+  pinMode(PIN_PSU_EN, OUTPUT);
+  pinMode(PIN_OUT_EN, OUTPUT);
+
+  digitalWrite(LED_MCU_STATUS, LOW);
   delay(1000);
-  digitalWrite(LED_Heater_Start, HIGH);
+  digitalWrite(LED_MCU_STATUS, HIGH);
   delay(1000);
-  digitalWrite(LED_Heater_Start, LOW);
-  digitalWrite(LED_Heater_ON, HIGH);
+  digitalWrite(LED_Heater, HIGH);
+  digitalWrite(PIN_PSU_EN, HIGH);
+  delay(1000);
+  digitalWrite(LED_HighVoltage, HIGH);
+  delay(1000);
+  digitalWrite(LED_CurrentLimit, HIGH);
+  digitalWrite(PIN_OUT_EN, HIGH);
+
 }
 
 void loop() 
