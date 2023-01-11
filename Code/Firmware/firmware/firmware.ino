@@ -5,26 +5,30 @@
 #include <Adafruit_GFX.h>
 
 //INA219 Power Monitor Settings
-#define SHUNT_MAX_V 0.125  
+#define SHUNT_MAX_V 0.03  
 #define BUS_MAX_V   32.0  
 #define MAX_CURRENT 5 
-#define SHUNT_R   0.025
+#define SHUNT_R   0.01
 INA219 ina219;
 
 //Display Settings and Initialization
 #define SCR_WD   240
 #define SCR_HT   240
-#define TFT_DC  A1
-#define TFT_RST A0
-Arduino_ST7789 display = Arduino_ST7789(TFT_DC, TFT_RST);
+#define DISP_DC  A1
+#define DISP_RST A0
+Arduino_ST7789 display = Arduino_ST7789(DISP_DC, DISP_RST);
 
 //IO Pins
-#define FlagHighVoltage 3
-#define FlagMBHeaterActive 4
-#define Heater_EN 5
-#define Heater_PWM 6
-#define LED_Heater_ON 9
-#define LED_Heater_Start 10
+#define LED_MCU_STATUS 12
+#define LED_HEATER 8
+#define LED_HIGH_VOLTAGE 5
+#define LED_CURRENT_LIMIT 7
+#define PIN_PSU_EN A0
+#define PIN_OUT_EN A2
+#define FLAG_HIGH_VOLTAGE A1
+#define FLAG_HEATER_FILT 2
+#define FLAG_CUR_LIM_FILT A3
+
 
 //Global variables
 int heaterStatus=0;
@@ -34,7 +38,6 @@ float lastVoltage=-1;
 float lastCurrent=-1;
 
 //Other settings
-#define heaterSlowStart 20000 //milliseconds
 #define MEASUREMENT_INTERVAL 500 //milliseconds
 
 
@@ -42,23 +45,16 @@ void setup()
 {
   //INA219 Power Monitor Initialization and Configuration
   ina219.begin();
-  ina219.configure(INA219::RANGE_32V, INA219::GAIN_4_160MV, INA219::ADC_32SAMP, INA219::ADC_32SAMP, INA219::CONT_SH_BUS);
+  ina219.configure(INA219::RANGE_32V, INA219::GAIN_1_40MV, INA219::ADC_32SAMP, INA219::ADC_32SAMP, INA219::CONT_SH_BUS);
   ina219.calibrate(SHUNT_R, SHUNT_MAX_V, BUS_MAX_V, MAX_CURRENT);
   //Initialize and Clear Display
   display.init();
   display.setRotation(3);
   display.fillScreen(BLACK);
   //Configure IO pins
-  pinMode(FlagHighVoltage, INPUT);
-  pinMode(FlagMBHeaterActive, INPUT);
-  pinMode(Heater_EN, OUTPUT);
-  digitalWrite(Heater_EN, HIGH);
-  pinMode(LED_Heater_ON, OUTPUT);
-  digitalWrite(LED_Heater_ON, LOW);
-  pinMode(LED_Heater_Start, OUTPUT);
-  digitalWrite(LED_Heater_Start, LOW);
-  pinMode(Heater_PWM, OUTPUT);
-  digitalWrite(Heater_PWM, LOW);
+  pinMode(LED_MCU_STATUS, OUTPUT);
+  digitalWrite(LED_MCU_STATUS, LOW);
+  pinMode(LED_HEATER, OUTPUT);
 }
 
 void loop() 
