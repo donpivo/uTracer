@@ -1,4 +1,4 @@
-21014800789617429
+21021501914356822
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88193,6 +88193,13 @@ DC_DC_Converver_DPU01L-15
 5
 5
 myDevices
+DIP-40_W15.24mm_Socket_ThroughPCB
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+612-87-640-41-001101
+0
+40
+40
+myDevices
 DO-214AC
 
 
@@ -88234,6 +88241,13 @@ Display_OLED_0.96in_I2C
 0
 4
 4
+myDevices
+Display_OLED_2.08
+
+
+0
+7
+7
 myDevices
 Display_OLED_2.42_SPI
 128x64 pixels
@@ -88445,6 +88459,13 @@ KF2510-8P
 8
 8
 myDevices
+LEDC3216X120N
+LTST-C230KGKT
+LED
+0
+2
+2
+myDevices
 LED_3mm_pcb_inset
 
 
@@ -88476,6 +88497,13 @@ myDevices
 LED_LTW-206DCG-BTH
 
 
+0
+2
+2
+myDevices
+LTSTS220KSKT
+LTST-S220KSKT-2
+LED
 0
 2
 2

@@ -380,7 +380,6 @@
         "name": "Power",
         "nets": [
           "Net-(C204-Pad1)",
-          "Net-(C207-Pad2)",
           "VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
