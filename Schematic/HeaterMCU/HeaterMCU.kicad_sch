@@ -4520,7 +4520,7 @@
     (property "Reference" "C305" (id 0) (at 106.045 31.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "22µF 25V" (id 1) (at 104.775 33.655 0)
+    (property "Value" "22µF 10V" (id 1) (at 104.775 33.655 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 104.14 31.75 0)
@@ -5207,7 +5207,7 @@
       (reference "C304") (unit 1) (value "22µF 10V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/a8b43ed0-8229-48ba-a25d-209c06b961d3"
-      (reference "C305") (unit 1) (value "22µF 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C305") (unit 1) (value "22µF 10V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/73f77089-2eb9-466d-9b6b-43d457e33e64"
       (reference "C306") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
