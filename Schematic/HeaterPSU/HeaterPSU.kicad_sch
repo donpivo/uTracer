@@ -4485,7 +4485,7 @@
     (property "Reference" "R220" (id 0) (at 66.2686 175.3616 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3.9kΩ 1/2W" (id 1) (at 66.2686 177.673 0)
+    (property "Value" "5.6kΩ 1/2W" (id 1) (at 66.2686 177.673 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (id 2) (at 66.548 176.53 90)
@@ -4596,7 +4596,7 @@
     (property "Reference" "R218" (id 0) (at 31.3436 165.8366 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3.9kΩ 1/2W" (id 1) (at 31.3436 168.148 0)
+    (property "Value" "5.6kΩ 1/2W" (id 1) (at 31.3436 168.148 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (id 2) (at 31.623 167.005 90)
@@ -4912,13 +4912,13 @@
       (reference "R217") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f967a966-4ece-4602-ba4b-63d93cb59cbf"
-      (reference "R218") (unit 1) (value "3.9kΩ 1/2W") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
+      (reference "R218") (unit 1) (value "5.6kΩ 1/2W") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
     )
     (path "/a41f1dc4-7ce8-4d54-a1e4-c64a4d09b61d"
       (reference "R219") (unit 1) (value "100kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/d8009b04-9e5a-4dee-a875-459ac83c9f82"
-      (reference "R220") (unit 1) (value "3.9kΩ 1/2W") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
+      (reference "R220") (unit 1) (value "5.6kΩ 1/2W") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
     )
     (path "/5475ee01-b699-4c77-9e3c-aebe58d2969e"
       (reference "RV201") (unit 1) (value "5kΩ") (footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical")
