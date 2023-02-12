@@ -74,8 +74,8 @@ void setup()
 
 void loop() 
 {
-  heaterOn=true;
-  // heaterOn=!digitalRead(FLAG_HEATER_FILT);
+  // heaterOn=true;
+  heaterOn=!digitalRead(FLAG_HEATER_FILT);
   if(heaterOn!=prevHeaterOn)
   {
     digitalWrite(PIN_LED_HEATER, heaterOn);
