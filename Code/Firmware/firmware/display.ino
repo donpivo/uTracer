@@ -24,4 +24,43 @@ void updateDisplayCurrent(float current)
   display.print("A");
 }
 
+void updateDisplayStatus()
+{
+  display.setTextSize(3);
+  if(heaterOn)
+  {
+    display.setTextColor(0xE880);
+  }
+  else
+  {
+    display.setTextColor(BLACK);
+  }  
+  display.setCursor(0, 150);
+  display.print("Heating");
 
+  if(currentLimited)
+  {
+    display.setTextColor(YELLOW);
+  }
+  else
+  {
+    display.setTextColor(BLACK);
+  }  
+  display.setCursor(0, 180);
+  display.print("Current limit");
+  
+  if(highVoltage)
+  {
+    display.setTextColor(BLUE);
+  }
+  else
+  {
+    display.setTextColor(BLACK);
+  }  
+  display.setCursor(0, 210);
+  display.print("High voltage");
+
+
+
+  displayStatechange=false;
+}

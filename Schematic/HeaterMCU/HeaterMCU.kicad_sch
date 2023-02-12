@@ -4921,7 +4921,7 @@
     (property "Reference" "R315" (id 0) (at 243.205 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.7kΩ" (id 1) (at 243.205 214.63 0)
+    (property "Value" "1.8kΩ" (id 1) (at 243.205 214.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 241.3 213.36 0)
@@ -5396,7 +5396,7 @@
       (reference "R314") (unit 1) (value "2.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e425db6b-d61f-4f19-b66d-560bcbed8498"
-      (reference "R315") (unit 1) (value "2.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R315") (unit 1) (value "1.8kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/71307b9a-dec5-4cbe-ac19-b14e848626d4"
       (reference "R316") (unit 1) (value "2.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")

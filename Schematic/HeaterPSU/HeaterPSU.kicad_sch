@@ -3938,7 +3938,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8388cf02-b7a0-4c05-bcd2-d3a51205ca58)
     (property "Reference" "R216" (id 0) (at 137.16 120.65 90))
-    (property "Value" "82kΩ" (id 1) (at 137.16 122.555 90))
+    (property "Value" "91kΩ" (id 1) (at 137.16 122.555 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 137.16 126.238 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4906,7 +4906,7 @@
       (reference "R215") (unit 1) (value "10kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/8388cf02-b7a0-4c05-bcd2-d3a51205ca58"
-      (reference "R216") (unit 1) (value "82kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R216") (unit 1) (value "91kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/abaa147c-f464-4236-8a4d-0ce77003cf6c"
       (reference "R217") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
