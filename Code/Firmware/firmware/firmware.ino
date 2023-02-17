@@ -74,8 +74,8 @@ void setup()
 
 void loop() 
 {
-  // heaterOn=true;
   heaterOn=!digitalRead(FLAG_HEATER_FILT);
+  // heaterOn=true;
   if(heaterOn!=prevHeaterOn)
   {
     digitalWrite(PIN_LED_HEATER, heaterOn);
@@ -85,6 +85,7 @@ void loop()
   }
   
   currentLimited=!digitalRead(FLAG_CUR_LIM_FILT);
+  // currentLimited=true;
   if(currentLimited!=prevCurrentLimited)
   {
     digitalWrite(PIN_LED_LIMIT_I, currentLimited);
@@ -94,6 +95,7 @@ void loop()
   }
   
   highVoltage=digitalRead(FLAG_HIGH_VOLTAGE);
+  // highVoltage=true;
   if(highVoltage!=prevHighVoltage)
   {
     digitalWrite(PIN_LED_HIGH_VOLTAGE, highVoltage);
