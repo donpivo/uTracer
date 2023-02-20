@@ -1,7 +1,7 @@
 void updateDisplayVoltage(float voltage)
 {
   display.setTextSize(7);
-  display.fillRect(0, 0, 180, 62, BLACK);
+  display.fillRect(0, 0, 180, 60, BLACK);
   display.setTextColor(WHITE);  
   display.setCursor(3, 3);
   String strVoltage=voltage<10?" "+String(voltage,1):String(voltage,1);
@@ -14,7 +14,7 @@ void updateDisplayVoltage(float voltage)
 void updateDisplayCurrent(float current)
 {
   display.setTextSize(7);
-  display.fillRect(0, 63, 180, 99, BLACK);
+  display.fillRect(0, 63, 180, 60, BLACK);
   display.setTextColor(WHITE);
   display.setCursor(3, 63);
   String strCurrent=current<10?" "+String(current,1):String(current,1);
