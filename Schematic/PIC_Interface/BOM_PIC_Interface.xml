@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bjorn\OneDrive\Projects\µTracer\Schematic\PIC_Interface\PIC_Interface.kicad_sch</source>
+    <date>Fri May 12 08:04:09 2023</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>µTracer PIC Interface</title>
+        <company>Retronics - Bjørner Sandom</company>
+        <rev/>
+        <date>2023-01-04</date>
+        <source>PIC_Interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C401">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb2f05b8-5eea-4484-bcac-26f94d0c1be9</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0bcc2d1-90e6-435e-8c1e-e625ca0d7f5e</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>B0520WS</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7dc6df3-f461-406e-91ea-fdf599a97e66</tstamps>
+    </comp>
+    <comp ref="D402">
+      <value>LED_Small</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>049e6edd-e795-4660-8a94-a72deab5d847</tstamps>
+    </comp>
+    <comp ref="D403">
+      <value>LED_Small</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>000adf38-fedd-49dd-baee-c337d120f898</tstamps>
+    </comp>
+    <comp ref="F401">
+      <value>N250mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>367c7f6e-3a45-4ef5-a0ae-aff98b5e21fd</tstamps>
+    </comp>
+    <comp ref="FB401">
+      <value>100Ω@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c4fc44-e00b-43d8-8010-74260509cf64</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>USB</value>
+      <footprint>myDevices:KF2510-4P</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda764dd-f08f-4be5-9af2-d87cf9895e25</tstamps>
+    </comp>
+    <comp ref="J402">
+      <value>To heater module</value>
+      <footprint>myDevices:0527450897</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f24adb6f-e9fa-4704-8d87-d550a7966227</tstamps>
+    </comp>
+    <comp ref="Q401">
+      <value>BSS138</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Digi-Key_PN">BSS138CT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">BSS138</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="BSS138" description="MOSFET N-CH 50V 220MA SOT-23"/>
+      <property name="Digi-Key_PN" value="BSS138CT-ND"/>
+      <property name="MPN" value="BSS138"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294"/>
+      <property name="Description" value="MOSFET N-CH 50V 220MA SOT-23"/>
+      <property name="Manufacturer" value="ON Semiconductor"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25d10674-96a6-4716-8be5-0246768afc23</tstamps>
+    </comp>
+    <comp ref="Q402">
+      <value>BSS138</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Digi-Key_PN">BSS138CT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">BSS138</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="BSS138" description="MOSFET N-CH 50V 220MA SOT-23"/>
+      <property name="Digi-Key_PN" value="BSS138CT-ND"/>
+      <property name="MPN" value="BSS138"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294"/>
+      <property name="Description" value="MOSFET N-CH 50V 220MA SOT-23"/>
+      <property name="Manufacturer" value="ON Semiconductor"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b52602f9-322b-4128-955f-4a8aee817043</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>18kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7394154d-a8fc-408b-9fb0-150b51832e45</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>1.8kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6420f843-385d-404b-b833-9287a24302eb</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>1.8kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5650d812-d9fa-4d16-80d1-2c9adc4be851</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e0013f6-e511-42b8-9a99-fb7ca75190d7</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a067d8a-6ac5-4d99-9c6c-6ad0a837fec3</tstamps>
+    </comp>
+    <comp ref="R406">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f3a5dc-b360-42e2-850b-9c744f314dff</tstamps>
+    </comp>
+    <comp ref="R407">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5fe30a8-d02c-4cfb-874f-ecbe38ddace6</tstamps>
+    </comp>
+    <comp ref="R408">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>403a34f6-af39-482c-94ad-5c50ea208b0c</tstamps>
+    </comp>
+    <comp ref="R409">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdb55707-8e6c-4eca-9af8-aae82c341bf8</tstamps>
+    </comp>
+    <comp ref="R410">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c1e7718-4be4-425b-8757-0a5b9ddf8bc4</tstamps>
+    </comp>
+    <comp ref="R411">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e680268-c061-4202-bf44-ea4d76148ffe</tstamps>
+    </comp>
+    <comp ref="R412">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3efa2aa9-1068-47dc-87d8-ba084fd5976e</tstamps>
+    </comp>
+    <comp ref="R413">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa7d86cd-8199-44a3-b86e-b0ac544561ff</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>Preci-dip 612-87-640-41-001101</value>
+      <footprint>myDevices:DIP-40_W15.24mm_Socket_ThroughPCB</footprint>
+      <datasheet>https://no.mouser.com/datasheet/2/571/preci-dip_pdsad00016-22-1746803.pdf</datasheet>
+      <libsource lib="MCU_Microchip_PIC16" part="PIC16F884-IP" description="4K Flash, 256B SRAM, 256B EEPROM, DIP40"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a670c6d8-0937-4668-95b5-a821d99ebdb0</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>FT232RL</value>
+      <footprint>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</datasheet>
+      <libsource lib="Interface_USB" part="FT232RL" description="USB to Serial Interface, SSOP-28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8144e4c-060e-4047-8316-a2581c7e692c</tstamps>
+    </comp>
+    <comp ref="U403">
+      <value>TLP185</value>
+      <footprint>Package_SO:SOIC-4_4.55x3.7mm_P2.54mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&amp;prodName=TLP185</datasheet>
+      <libsource lib="Isolator" part="TLP185" description="DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fca5cd14-24ed-4c34-a0f0-b06058e8ae18</tstamps>
+    </comp>
+    <comp ref="U404">
+      <value>TLP185</value>
+      <footprint>Package_SO:SOIC-4_4.55x3.7mm_P2.54mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&amp;prodName=TLP185</datasheet>
+      <libsource lib="Isolator" part="TLP185" description="DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PIC_Interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb9b88f1-de93-4641-bebe-b69909b1ef51</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT232RL">
+      <description>USB to Serial Interface, SSOP-28</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</docs>
+      <footprints>
+        <fp>SSOP*5.3x10.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT232RL</field>
+        <field name="Footprint">Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="DTR" type="output"/>
+        <pin num="3" name="RTS" type="output"/>
+        <pin num="4" name="VCCIO" type="power_in"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="RI" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="9" name="DCR" type="input"/>
+        <pin num="10" name="DCD" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="CBUS4" type="bidirectional"/>
+        <pin num="13" name="CBUS2" type="bidirectional"/>
+        <pin num="14" name="CBUS3" type="bidirectional"/>
+        <pin num="15" name="USBD+" type="bidirectional"/>
+        <pin num="16" name="USBD-" type="bidirectional"/>
+        <pin num="17" name="3V3OUT" type="power_out"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="~{RESET}" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="CBUS1" type="bidirectional"/>
+        <pin num="23" name="CBUS0" type="bidirectional"/>
+        <pin num="25" name="AGND" type="power_in"/>
+        <pin num="26" name="TEST" type="input"/>
+        <pin num="27" name="OSCI" type="input"/>
+        <pin num="28" name="OSCO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="TLP185">
+      <description>DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&amp;prodName=TLP185</docs>
+      <footprints>
+        <fp>SOIC*4.55x3.7mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP185</field>
+        <field name="Footprint">Package_SO:SOIC-4_4.55x3.7mm_P2.54mm</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&amp;prodName=TLP185</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_PIC16" part="PIC16F884-IP">
+      <description>4K Flash, 256B SRAM, 256B EEPROM, DIP40</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>PDIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16F884-IP</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RE3/~{MCLR}/Vpp" type="input"/>
+        <pin num="2" name="C12IN0-/ULPWU/AN0/RA0" type="bidirectional"/>
+        <pin num="3" name="C12IN1-/AN1/RA1" type="bidirectional"/>
+        <pin num="4" name="C2IN+/CVref/Vref-/AN2/RA2" type="bidirectional"/>
+        <pin num="5" name="C1IN+/Vref+/AN3/RA3" type="bidirectional"/>
+        <pin num="6" name="C1OUT/T0CKI/RA4" type="bidirectional"/>
+        <pin num="7" name="C2OUT/~{SS}/AN4/RA5" type="bidirectional"/>
+        <pin num="8" name="RE0/AN5" type="bidirectional"/>
+        <pin num="9" name="RE1/AN6" type="bidirectional"/>
+        <pin num="10" name="RE2/AN7" type="bidirectional"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VSS" type="power_in"/>
+        <pin num="13" name="RA7/OSC1/CLKIN" type="bidirectional"/>
+        <pin num="14" name="RA6/OSC2/CLKOUT" type="bidirectional"/>
+        <pin num="15" name="T10S0/T1CKI/RC0" type="bidirectional"/>
+        <pin num="16" name="T1OSI/CCP2/RC1" type="bidirectional"/>
+        <pin num="17" name="P1A/CCP1/RC2" type="bidirectional"/>
+        <pin num="18" name="SCL/SCK/RC3" type="bidirectional"/>
+        <pin num="19" name="RD0" type="bidirectional"/>
+        <pin num="20" name="RD1" type="bidirectional"/>
+        <pin num="21" name="RD2" type="bidirectional"/>
+        <pin num="22" name="RD3" type="bidirectional"/>
+        <pin num="23" name="SDA/SDI/RC4" type="bidirectional"/>
+        <pin num="24" name="SDO/RC5" type="bidirectional"/>
+        <pin num="25" name="TX/CK/RC6" type="bidirectional"/>
+        <pin num="26" name="RX/DT/RC7" type="bidirectional"/>
+        <pin num="27" name="RD4" type="bidirectional"/>
+        <pin num="28" name="RD5/P1B" type="bidirectional"/>
+        <pin num="29" name="RD6/P1C" type="bidirectional"/>
+        <pin num="30" name="RD7/P1D" type="bidirectional"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="INT/AN12/RB0" type="bidirectional"/>
+        <pin num="34" name="C12IN3-/AN10/RB1" type="bidirectional"/>
+        <pin num="35" name="AN8/RB2" type="bidirectional"/>
+        <pin num="36" name="C12IN2-/PGM/AN9/RB3" type="bidirectional"/>
+        <pin num="37" name="AN11/RB4" type="bidirectional"/>
+        <pin num="38" name="~{T1G}/AN13/RB5" type="bidirectional"/>
+        <pin num="39" name="ICSPCLK/RB6" type="bidirectional"/>
+        <pin num="40" name="ICSPDAT/RB7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="BSS138">
+      <description>MOSFET N-CH 50V 220MA SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="Digi-Key_PN">BSS138CT-ND</field>
+        <field name="MPN">BSS138</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_PIC16">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/MCU_Microchip_PIC16.kicad_sym</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\3rdparty/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J402" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J402" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U403" pin="6" pintype="passive"/>
+      <node ref="U404" pin="6" pintype="passive"/>
+    </net>
+    <net code="2" name="+5VA">
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R406" pin="1" pintype="passive"/>
+      <node ref="R407" pin="1" pintype="passive"/>
+      <node ref="U401" pin="32" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="FlagHeater">
+      <node ref="J402" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R408" pin="1" pintype="passive"/>
+      <node ref="U403" pin="4" pintype="passive"/>
+    </net>
+    <net code="4" name="FlagHighVoltage">
+      <node ref="J402" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R409" pin="1" pintype="passive"/>
+      <node ref="U404" pin="4" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J401" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q401" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q402" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R412" pin="2" pintype="passive"/>
+      <node ref="R413" pin="2" pintype="passive"/>
+      <node ref="U401" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U402" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="25" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U402" pin="26" pinfunction="TEST" pintype="input"/>
+      <node ref="U402" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="GNDPWR">
+      <node ref="J402" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J402" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R408" pin="2" pintype="passive"/>
+      <node ref="R409" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C401-Pad1)">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="U402" pin="17" pinfunction="3V3OUT" pintype="power_out"/>
+    </net>
+    <net code="8" name="Net-(D402-Pad1)">
+      <node ref="D402" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D403-Pad1)">
+      <node ref="D403" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R405" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(F401-Pad1)">
+      <node ref="F401" pin="1" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(F401-Pad2)">
+      <node ref="F401" pin="2" pintype="passive"/>
+      <node ref="FB401" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J401-Pad2)">
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U402" pin="16" pinfunction="USBD-" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(J401-Pad3)">
+      <node ref="J401" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U402" pin="15" pinfunction="USBD+" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(Q401-Pad1)">
+      <node ref="Q401" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R410" pin="2" pintype="passive"/>
+      <node ref="R412" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q401-Pad3)">
+      <node ref="Q401" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="U403" pin="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q402-Pad1)">
+      <node ref="Q402" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R411" pin="2" pintype="passive"/>
+      <node ref="R413" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q402-Pad3)">
+      <node ref="Q402" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="U404" pin="3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R401-Pad1)">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="U401" pin="26" pinfunction="RX/DT/RC7" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(R402-Pad1)">
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U402" pin="1" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R403-Pad1)">
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="U401" pin="25" pinfunction="TX/CK/RC6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(R403-Pad2)">
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="U402" pin="5" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(R404-Pad1)">
+      <node ref="R404" pin="1" pintype="passive"/>
+      <node ref="U402" pin="23" pinfunction="CBUS0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(R405-Pad2)">
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="U402" pin="22" pinfunction="CBUS1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(R406-Pad2)">
+      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="U403" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R407-Pad2)">
+      <node ref="R407" pin="2" pintype="passive"/>
+      <node ref="U404" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="PIC_HeaterPWM">
+      <node ref="R410" pin="1" pintype="passive"/>
+      <node ref="U401" pin="17" pinfunction="P1A/CCP1/RC2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="PIC_HighVoltageLED">
+      <node ref="R411" pin="1" pintype="passive"/>
+      <node ref="U401" pin="38" pinfunction="~{T1G}/AN13/RB5" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="USB_5V">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D402" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D403" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB401" pin="1" pintype="passive"/>
+      <node ref="U402" pin="19" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U402" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U402" pin="4" pinfunction="VCCIO" pintype="power_in"/>
+    </net>
+    <net code="29" name="unconnected-(J402-Pad3)">
+      <node ref="J402" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J402-Pad4)">
+      <node ref="J402" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U401-Pad1)">
+      <node ref="U401" pin="1" pinfunction="RE3/~{MCLR}/Vpp" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U401-Pad2)">
+      <node ref="U401" pin="2" pinfunction="C12IN0-/ULPWU/AN0/RA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U401-Pad3)">
+      <node ref="U401" pin="3" pinfunction="C12IN1-/AN1/RA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U401-Pad4)">
+      <node ref="U401" pin="4" pinfunction="C2IN+/CVref/Vref-/AN2/RA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U401-Pad5)">
+      <node ref="U401" pin="5" pinfunction="C1IN+/Vref+/AN3/RA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U401-Pad6)">
+      <node ref="U401" pin="6" pinfunction="C1OUT/T0CKI/RA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U401-Pad7)">
+      <node ref="U401" pin="7" pinfunction="C2OUT/~{SS}/AN4/RA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U401-Pad8)">
+      <node ref="U401" pin="8" pinfunction="RE0/AN5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U401-Pad9)">
+      <node ref="U401" pin="9" pinfunction="RE1/AN6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U401-Pad10)">
+      <node ref="U401" pin="10" pinfunction="RE2/AN7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U401-Pad11)">
+      <node ref="U401" pin="11" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U401-Pad12)">
+      <node ref="U401" pin="12" pinfunction="VSS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U401-Pad13)">
+      <node ref="U401" pin="13" pinfunction="RA7/OSC1/CLKIN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U401-Pad14)">
+      <node ref="U401" pin="14" pinfunction="RA6/OSC2/CLKOUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U401-Pad15)">
+      <node ref="U401" pin="15" pinfunction="T10S0/T1CKI/RC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U401-Pad16)">
+      <node ref="U401" pin="16" pinfunction="T1OSI/CCP2/RC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U401-Pad18)">
+      <node ref="U401" pin="18" pinfunction="SCL/SCK/RC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U401-Pad19)">
+      <node ref="U401" pin="19" pinfunction="RD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U401-Pad20)">
+      <node ref="U401" pin="20" pinfunction="RD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U401-Pad21)">
+      <node ref="U401" pin="21" pinfunction="RD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U401-Pad22)">
+      <node ref="U401" pin="22" pinfunction="RD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U401-Pad23)">
+      <node ref="U401" pin="23" pinfunction="SDA/SDI/RC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U401-Pad24)">
+      <node ref="U401" pin="24" pinfunction="SDO/RC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U401-Pad27)">
+      <node ref="U401" pin="27" pinfunction="RD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U401-Pad28)">
+      <node ref="U401" pin="28" pinfunction="RD5/P1B" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U401-Pad29)">
+      <node ref="U401" pin="29" pinfunction="RD6/P1C" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U401-Pad30)">
+      <node ref="U401" pin="30" pinfunction="RD7/P1D" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U401-Pad33)">
+      <node ref="U401" pin="33" pinfunction="INT/AN12/RB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U401-Pad34)">
+      <node ref="U401" pin="34" pinfunction="C12IN3-/AN10/RB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U401-Pad35)">
+      <node ref="U401" pin="35" pinfunction="AN8/RB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U401-Pad36)">
+      <node ref="U401" pin="36" pinfunction="C12IN2-/PGM/AN9/RB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U401-Pad37)">
+      <node ref="U401" pin="37" pinfunction="AN11/RB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U401-Pad39)">
+      <node ref="U401" pin="39" pinfunction="ICSPCLK/RB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U401-Pad40)">
+      <node ref="U401" pin="40" pinfunction="ICSPDAT/RB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U402-Pad2)">
+      <node ref="U402" pin="2" pinfunction="DTR" pintype="output+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U402-Pad3)">
+      <node ref="U402" pin="3" pinfunction="RTS" pintype="output+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U402-Pad6)">
+      <node ref="U402" pin="6" pinfunction="RI" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U402-Pad9)">
+      <node ref="U402" pin="9" pinfunction="DCR" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U402-Pad10)">
+      <node ref="U402" pin="10" pinfunction="DCD" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U402-Pad11)">
+      <node ref="U402" pin="11" pinfunction="CTS" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U402-Pad12)">
+      <node ref="U402" pin="12" pinfunction="CBUS4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U402-Pad13)">
+      <node ref="U402" pin="13" pinfunction="CBUS2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U402-Pad14)">
+      <node ref="U402" pin="14" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U402-Pad27)">
+      <node ref="U402" pin="27" pinfunction="OSCI" pintype="input+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U402-Pad28)">
+      <node ref="U402" pin="28" pinfunction="OSCO" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

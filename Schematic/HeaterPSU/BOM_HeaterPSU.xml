@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bjorn\OneDrive\Projects\µTracer\Schematic\HeaterPSU\HeaterPSU.kicad_sch</source>
+    <date>Fri May 12 07:55:15 2023</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>uTracer HeaterPSU</title>
+        <company>Retronics - Bjørner Sandom</company>
+        <rev/>
+        <date>2022-10-28</date>
+        <source>HeaterPSU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C201">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78047950-d4f7-4c80-b4b6-d9ff83db21f6</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>470µF 35V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>797905ba-1213-487a-9b88-dcde3b50f8db</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>1µF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7017409e-24da-411a-9c08-c9e75444cfae</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>1µF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa020fb-b99e-4426-afbb-637b927a088a</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>470µF 35V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee891da7-4010-4c14-8488-e4cb66f5b63a</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>22µF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eb8e4e5-c800-41d7-a034-7ac932b3dae3</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>22µF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dbeffbb-62e2-4fc2-8c45-047ee2b23bc6</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>22µF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>884938bc-1cab-4ffc-a433-e3167c663155</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8018bc0b-cd1a-44d7-b55a-cfc650209ffa</tstamps>
+    </comp>
+    <comp ref="C211">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3ca17b6-42a1-46a2-82c8-37f3eba25148</tstamps>
+    </comp>
+    <comp ref="C212">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c036d44-9203-4b94-b346-e692bc8319f3</tstamps>
+    </comp>
+    <comp ref="C213">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ba19257-5b51-483b-a552-3e78f1d94fdb</tstamps>
+    </comp>
+    <comp ref="C214">
+      <value>10µF 35V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb18a299-7699-4466-9b2d-700e0d61665f</tstamps>
+    </comp>
+    <comp ref="C215">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb83581e-89da-405d-81be-21921805dc14</tstamps>
+    </comp>
+    <comp ref="C216">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3351db-455a-406c-afc9-8d83b00e2793</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>"PSU On"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70caeeb2-6e1b-42ac-ae53-f69158098e82</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>VS-50WQ04FN</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="myDevices" part="D_Schottky_VS-50WQ04FN" description="Schottky diode, anode on pins 1 and 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5892216d-de74-4e35-acd5-b636dd85ecfd</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>"Out en"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1068729f-ca2c-4d2e-8d99-192baf102c4d</tstamps>
+    </comp>
+    <comp ref="D204">
+      <value>"Current limiter"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b90d225f-1b8a-474f-ba54-de888e3171b7</tstamps>
+    </comp>
+    <comp ref="D205">
+      <value>12V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c8cfd12-c180-4b6e-a735-4249edfbb70a</tstamps>
+    </comp>
+    <comp ref="D206">
+      <value>"POWER"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35d73384-fdad-4f03-a378-9bd720f5cf70</tstamps>
+    </comp>
+    <comp ref="D207">
+      <value>"REV POL"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a5b1ad-f8ca-443f-9e98-b297dacc4ec6</tstamps>
+    </comp>
+    <comp ref="D208">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dfdb360-b069-4be9-9824-578407e67952</tstamps>
+    </comp>
+    <comp ref="H201">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>818ed88c-2128-42d4-873c-6d6910fe880d</tstamps>
+    </comp>
+    <comp ref="H202">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86acefe6-7a8a-4ec0-bd57-6ee2f4c30ede</tstamps>
+    </comp>
+    <comp ref="H203">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603f13db-e1e1-411f-b8f7-919cd6193fc2</tstamps>
+    </comp>
+    <comp ref="H204">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d3c43b4-cf47-4ccb-9a0d-0c61e4b2a895</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>Heater output</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ecdc36e-a1b4-4cda-8c48-eee0656eb63f</tstamps>
+    </comp>
+    <comp ref="J202">
+      <value>To MCU Board</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86e62557-8dcf-4f40-a7d4-67152604aec4</tstamps>
+    </comp>
+    <comp ref="J203">
+      <value>SMPS2_SEC</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53b5eddb-078d-49a6-a5fb-d4f106ec25c1</tstamps>
+    </comp>
+    <comp ref="L201">
+      <value>33µH 4.2A</value>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ffbce8c-47dd-437a-be0e-a4650b3eb4fe</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>SIRA24DP</value>
+      <footprint>myDevices:SIRA24DP-T1-GE3</footprint>
+      <libsource lib="myDevices" part="SIRA24DP-T1-GE3" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d452022-fba0-4949-88a9-33ca2cdfa19a</tstamps>
+    </comp>
+    <comp ref="Q202">
+      <value>IRF4905</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</datasheet>
+      <libsource lib="Transistor_FET" part="IRF4905" description="-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3accf1f-481c-4411-9119-c541e45e171c</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>560Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6cce431-5381-48e8-b103-c9be13b63cd9</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>10Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1075df0a-7eee-48dd-84b3-9829123aeaf0</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>10Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7abf5cdb-d378-4382-9fe5-6ea4c4f7fc4c</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>10mΩ</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa7d1a02-079c-4fbc-9328-27c0cbccfbee</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acdc8974-c683-421f-9729-317698c4e535</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>3.9kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ff606ef-3125-46e2-b957-680ff1671858</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>1.8kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c236765-a445-4d91-9b5b-7348792c8586</tstamps>
+    </comp>
+    <comp ref="R208">
+      <value>1.3kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d35b2c-c1a3-45aa-9525-ef2636d2dc33</tstamps>
+    </comp>
+    <comp ref="R209">
+      <value>180Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d96d7be-7bdd-4c71-be3e-033a07b5bd9f</tstamps>
+    </comp>
+    <comp ref="R210">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19287b19-bf0d-4fb4-a722-88d12e7321f2</tstamps>
+    </comp>
+    <comp ref="R211">
+      <value>270Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afbc5235-e352-4cf6-8d66-d4fa6ff88fa0</tstamps>
+    </comp>
+    <comp ref="R212">
+      <value>180Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c32cc7-004d-451e-9dd9-11e1ef47720e</tstamps>
+    </comp>
+    <comp ref="R213">
+      <value>47Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58bd0d17-92d2-4808-bece-3a89120bf533</tstamps>
+    </comp>
+    <comp ref="R214">
+      <value>680Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82fd0b5a-8edf-4a56-b5cb-243bdcc1004f</tstamps>
+    </comp>
+    <comp ref="R215">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eaf2dcd-3e00-43c0-8b15-ed292a956224</tstamps>
+    </comp>
+    <comp ref="R216">
+      <value>91kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8388cf02-b7a0-4c05-bcd2-d3a51205ca58</tstamps>
+    </comp>
+    <comp ref="R217">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abaa147c-f464-4236-8a4d-0ce77003cf6c</tstamps>
+    </comp>
+    <comp ref="R218">
+      <value>5.6kΩ 1/2W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f967a966-4ece-4602-ba4b-63d93cb59cbf</tstamps>
+    </comp>
+    <comp ref="R219">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a41f1dc4-7ce8-4d54-a1e4-c64a4d09b61d</tstamps>
+    </comp>
+    <comp ref="R220">
+      <value>5.6kΩ 1/2W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8009b04-9e5a-4dee-a875-459ac83c9f82</tstamps>
+    </comp>
+    <comp ref="RV201">
+      <value>5kΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5475ee01-b699-4c77-9e3c-aebe58d2969e</tstamps>
+    </comp>
+    <comp ref="RV202">
+      <value>200Ω</value>
+      <footprint>Potentiometer_SMD:Potentiometer_TT_35W</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2bd7c7f-f2d5-492a-9355-ee7d5b0dc100</tstamps>
+    </comp>
+    <comp ref="RV203">
+      <value>200Ω</value>
+      <footprint>Potentiometer_SMD:Potentiometer_TT_35W</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f836635-48e0-4c98-b958-2e4584d8ab02</tstamps>
+    </comp>
+    <comp ref="RV204">
+      <value>200Ω</value>
+      <footprint>Potentiometer_SMD:Potentiometer_TT_35W</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d123cf01-0675-4e7f-a116-217ad4c1bd97</tstamps>
+    </comp>
+    <comp ref="RV205">
+      <value>200Ω</value>
+      <footprint>Potentiometer_SMD:Potentiometer_TT_35W</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>568d4743-e7c7-4b4e-846a-d3159f449885</tstamps>
+    </comp>
+    <comp ref="RV206">
+      <value>10kΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a67c7ae-cc92-4a82-8dd7-674a8bb1906a</tstamps>
+    </comp>
+    <comp ref="SW201">
+      <value>ALPSALPINE SRBV150901</value>
+      <footprint>myDevices:SRBV141404</footprint>
+      <libsource lib="myDevices" part="SW_Rotary_1P5T_ALPSALPINE_SRBV" description="2 rotary switch with 6 positions"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae48d68f-db89-4dfb-be12-01fc736dda99</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>XL4005</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <libsource lib="myDevices" part="XL4005" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a68274cb-50bb-431a-a8ea-e6aff6f46e70</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>MCP14A0052T</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="myDevices" part="MCP14A0052T" description="0.5A MOSFET Driver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3aee559b-0a27-4e81-8634-df20babd537d</tstamps>
+    </comp>
+    <comp ref="U203">
+      <value>INA293B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="myDevices" part="INA293B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cd94b9d-1746-4dcb-acfd-1d00ebaa66ef</tstamps>
+    </comp>
+    <comp ref="U204">
+      <value>L78L05_SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L78L05_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78c223f5-1941-491f-9b3d-ce4b8b13bc2d</tstamps>
+    </comp>
+    <comp ref="U205">
+      <value>TS321</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="myDevices" part="RS8751" description="Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterPSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f66d9e6-324a-4a21-8132-a2e03b6c6f81</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L78L05_SOT89">
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L78L05_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF4905">
+      <description>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</description>
+      <docs>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF4905</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="D_Schottky_VS-50WQ04FN">
+      <description>Schottky diode, anode on pins 1 and 3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_VS-50WQ04FN</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="INA293B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA293B</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5_HandSoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VS" type="power_in"/>
+        <pin num="4" name="IN+" type="passive"/>
+        <pin num="5" name="IN-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="MCP14A0052T">
+      <description>0.5A MOSFET Driver</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP14A0052T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="RS8751">
+      <description>Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RS8751</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="SIRA24DP-T1-GE3">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SIRA24DP-T1-GE3</field>
+        <field name="Footprint">myDevices:SIRA24DP-T1-GE3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="SW_Rotary_1P5T_ALPSALPINE_SRBV">
+      <description>2 rotary switch with 6 positions</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Rotary_1P5T_ALPSALPINE_SRBV</field>
+        <field name="Footprint">myDevices:SRBV141404</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="XL4005">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XL4005</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="FB" type="passive"/>
+        <pin num="3" name="SW" type="power_out"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="myDevices">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\3rdparty/myDevices/myDevices.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C212" pin="2" pintype="passive"/>
+      <node ref="C213" pin="2" pintype="passive"/>
+      <node ref="C215" pin="2" pintype="passive"/>
+      <node ref="R216" pin="2" pintype="passive"/>
+      <node ref="U202" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U203" pin="3" pinfunction="VS" pintype="power_in"/>
+      <node ref="U204" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U205" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="/VSEL_1.4">
+      <node ref="R212" pin="2" pintype="passive"/>
+      <node ref="RV205" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV205" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW201" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/VSEL_5">
+      <node ref="RV204" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV204" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW201" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/VSEL_6.3">
+      <node ref="RV203" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV203" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW201" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="5" name="/VSEL_12.6">
+      <node ref="RV202" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV202" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW201" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="6" name="/VSEL_VAR">
+      <node ref="RV201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW201" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="7" name="CUR_LIM">
+      <node ref="C216" pin="1" pintype="passive"/>
+      <node ref="D204" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J202" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U205" pin="1" pintype="output"/>
+    </net>
+    <net code="8" name="GNDPWR">
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="C212" pin="1" pintype="passive"/>
+      <node ref="C213" pin="1" pintype="passive"/>
+      <node ref="C214" pin="1" pintype="passive"/>
+      <node ref="C215" pin="1" pintype="passive"/>
+      <node ref="D202" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="D202" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="D203" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D207" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D208" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J202" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J202" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J203" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q201" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R210" pin="1" pintype="passive"/>
+      <node ref="R211" pin="2" pintype="passive"/>
+      <node ref="R215" pin="1" pintype="passive"/>
+      <node ref="R217" pin="1" pintype="passive"/>
+      <node ref="R219" pin="1" pintype="passive"/>
+      <node ref="R220" pin="1" pintype="passive"/>
+      <node ref="U201" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U202" pin="2" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U202" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U203" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U204" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U205" pin="2" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="9" name="INA_CSENS">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="J202" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="U203" pin="5" pinfunction="IN-" pintype="passive"/>
+    </net>
+    <net code="10" name="INA_VSENS">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="J202" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="U203" pin="4" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C204-Pad1)">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="L201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C206-Pad1)">
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="C211" pin="2" pintype="passive"/>
+      <node ref="J201" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="R208" pin="1" pintype="passive"/>
+      <node ref="R209" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C211-Pad1)">
+      <node ref="C211" pin="1" pintype="passive"/>
+      <node ref="D204" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="SW201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C216-Pad2)">
+      <node ref="C216" pin="2" pintype="passive"/>
+      <node ref="RV206" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U205" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D201-Pad1)">
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="L201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="17" name="Net-(D203-Pad2)">
+      <node ref="D203" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R214" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D205-Pad2)">
+      <node ref="D205" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q202" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R219" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D206-Pad1)">
+      <node ref="D206" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R220" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D207-Pad1)">
+      <node ref="D207" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D208" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R218" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J201-Pad1)">
+      <node ref="J201" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q201" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J203-Pad1)">
+      <node ref="J203" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q202" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q201-Pad2)">
+      <node ref="Q201" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R213" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R205-Pad2)">
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="RV201" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R206-Pad2)">
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="RV202" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R207-Pad2)">
+      <node ref="R207" pin="2" pintype="passive"/>
+      <node ref="RV203" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R208-Pad2)">
+      <node ref="R208" pin="2" pintype="passive"/>
+      <node ref="RV204" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R209-Pad2)">
+      <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R212" pin="1" pintype="passive"/>
+      <node ref="RV205" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R213-Pad2)">
+      <node ref="R213" pin="2" pintype="passive"/>
+      <node ref="R214" pin="2" pintype="passive"/>
+      <node ref="U202" pin="6" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(R216-Pad1)">
+      <node ref="R216" pin="1" pintype="passive"/>
+      <node ref="RV206" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R217-Pad2)">
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="RV206" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(U203-Pad1)">
+      <node ref="U203" pin="1" pinfunction="OUT" pintype="passive"/>
+      <node ref="U205" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="33" name="OUT_EN">
+      <node ref="J202" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R215" pin="2" pintype="passive"/>
+      <node ref="U202" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="34" name="PSU_EN">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J202" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R210" pin="2" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="35" name="VDC">
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C214" pin="2" pintype="passive"/>
+      <node ref="D205" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D206" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J202" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q202" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U201" pin="5" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U204" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="36" name="unconnected-(U202-Pad4)">
+      <node ref="U202" pin="4" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

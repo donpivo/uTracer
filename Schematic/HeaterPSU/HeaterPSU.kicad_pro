@@ -394,16 +394,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "Net-(C204-Pad1)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VDC"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

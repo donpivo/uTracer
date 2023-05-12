@@ -4288,7 +4288,7 @@
     (in_bom yes) (on_board yes)
     (uuid ae48d68f-db89-4dfb-be12-01fc736dda99)
     (property "Reference" "SW201" (id 0) (at 97.155 70.485 0))
-    (property "Value" "ALPSALPINE_SRBV_1P5T" (id 1) (at 99.06 73.025 0))
+    (property "Value" "ALPSALPINE SRBV150901" (id 1) (at 99.06 73.025 0))
     (property "Footprint" "myDevices:SRBV141404" (id 2) (at 95.25 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4939,7 +4939,7 @@
       (reference "RV206") (unit 1) (value "10kΩ") (footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical")
     )
     (path "/ae48d68f-db89-4dfb-be12-01fc736dda99"
-      (reference "SW201") (unit 1) (value "ALPSALPINE_SRBV_1P5T") (footprint "myDevices:SRBV141404")
+      (reference "SW201") (unit 1) (value "ALPSALPINE SRBV150901") (footprint "myDevices:SRBV141404")
     )
     (path "/a68274cb-50bb-431a-a8ea-e6aff6f46e70"
       (reference "U201") (unit 1) (value "XL4005") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")

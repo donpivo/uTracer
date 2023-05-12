@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bjorn\OneDrive\Projects\µTracer\Schematic\HeaterMCU\HeaterMCU.kicad_sch</source>
+    <date>Fri May 12 07:43:41 2023</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>uTracer Heater - MCU Board</title>
+        <company>Retronics - Bjørner Sandom</company>
+        <rev/>
+        <date>2023-01-11</date>
+        <source>HeaterMCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C301">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5f0f47c-5fb5-48d1-9d47-91b7225086eb</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87c3990d-f6f8-4ae7-8cdb-e68f2a12f2f9</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd8df53b-6efa-466f-94c9-593e3193e831</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>22µF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0414292-d1fd-45d1-a05f-88d4d4809efe</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>22µF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8b43ed0-8229-48ba-a25d-209c06b961d3</tstamps>
+    </comp>
+    <comp ref="C306">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73f77089-2eb9-466d-9b6b-43d457e33e64</tstamps>
+    </comp>
+    <comp ref="C307">
+      <value>10µF 35V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eacd12d8-4131-48c2-961d-b57541c89b9d</tstamps>
+    </comp>
+    <comp ref="C308">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c282475-9aa5-40a7-94c0-02493636b227</tstamps>
+    </comp>
+    <comp ref="C309">
+      <value>75pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>704d27af-2631-434d-811f-cf4e7349a1ca</tstamps>
+    </comp>
+    <comp ref="C310">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4c4667e-e7b8-4739-b819-52545f0e152b</tstamps>
+    </comp>
+    <comp ref="C311">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>256063a4-94ff-4ae2-b1e6-f7a8cc144a24</tstamps>
+    </comp>
+    <comp ref="C312">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f8ccf29-25ba-4fef-8789-381635dc7e3b</tstamps>
+    </comp>
+    <comp ref="C313">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>192c3c19-10d3-4f29-9995-a43ea57a1ffd</tstamps>
+    </comp>
+    <comp ref="C314">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76adb1da-534e-4318-8ef3-a290f4840f8a</tstamps>
+    </comp>
+    <comp ref="C315">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d651e66-311a-40df-8db7-24ee71c7531c</tstamps>
+    </comp>
+    <comp ref="C316">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5fbd0f2-0f52-4566-a793-4b6674691705</tstamps>
+    </comp>
+    <comp ref="C317">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c7d5ac4-e0d6-4df7-b575-a28308230186</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>"+3.3V"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f303d0b-208d-42bf-abbe-cd09ce55af24</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d663b02-9646-460d-9c79-bdd8c03d680f</tstamps>
+    </comp>
+    <comp ref="D303">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ddd7e7d-ae4a-422f-a5dc-527323f6bcbd</tstamps>
+    </comp>
+    <comp ref="D304">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47987cc7-24e1-4003-99d1-be80c25efe6b</tstamps>
+    </comp>
+    <comp ref="D305">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ff280b9-be85-499d-99ad-4c0f1a1df852</tstamps>
+    </comp>
+    <comp ref="D306">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b8a5491-0191-406e-9dde-5494a2aa7fbb</tstamps>
+    </comp>
+    <comp ref="D307">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19002657-afbc-4e30-916a-b4d334bd713e</tstamps>
+    </comp>
+    <comp ref="D308">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a48f93a-1b50-4fc4-901f-7b3c688f8649</tstamps>
+    </comp>
+    <comp ref="D309">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca04d0ce-c799-4d4d-b6e2-e2f6a4b0da22</tstamps>
+    </comp>
+    <comp ref="D310">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d99cdad8-8d1f-4666-a596-c37b0ff19edc</tstamps>
+    </comp>
+    <comp ref="D311">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a122bd5-bb67-495f-863c-e876b8cc0331</tstamps>
+    </comp>
+    <comp ref="D312">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a5a5c68-5d59-493b-a8f1-af73e1610d40</tstamps>
+    </comp>
+    <comp ref="D313">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9aa01cd7-34f7-4216-8e36-bcedf37c527e</tstamps>
+    </comp>
+    <comp ref="D314">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1972a1d7-7154-47a2-929b-24e8a88eaffb</tstamps>
+    </comp>
+    <comp ref="D315">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b8ce7e-2b91-4054-829f-6f3b349d0058</tstamps>
+    </comp>
+    <comp ref="D316">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d639f33-e03f-42aa-8bf0-926c90ee3c71</tstamps>
+    </comp>
+    <comp ref="D317">
+      <value>"Voltage limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>618fc3ac-bb53-4a0d-83b4-a874f6159477</tstamps>
+    </comp>
+    <comp ref="D318">
+      <value>"Current limit"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2232490-eaad-4576-a05b-55390301c2c7</tstamps>
+    </comp>
+    <comp ref="D319">
+      <value>"Heater"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>440b2ab8-c28e-4c44-b666-606b2858247a</tstamps>
+    </comp>
+    <comp ref="D320">
+      <value>"MCU_BOOT"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b21a7ae-781b-4b2d-9b57-a9942f76e533</tstamps>
+    </comp>
+    <comp ref="D321">
+      <value>"HighVoltage"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b184f2a6-115a-4436-8431-9dd394220ceb</tstamps>
+    </comp>
+    <comp ref="D322">
+      <value>"MCU_ON"</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d84ada7-2c34-4a7d-9731-8a6cc1a90379</tstamps>
+    </comp>
+    <comp ref="FB301">
+      <value>100Ω@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>328196f7-7481-4b7d-8d89-b35fad318902</tstamps>
+    </comp>
+    <comp ref="H301">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5098af86-b1a1-4914-8863-7d1dd352cc77</tstamps>
+    </comp>
+    <comp ref="H302">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32ee99b6-81c0-45cc-8546-21ee4a888f6a</tstamps>
+    </comp>
+    <comp ref="H303">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>955e6e3a-da6e-488b-be31-349d3f627467</tstamps>
+    </comp>
+    <comp ref="H304">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d2c2c6-5125-475f-bd30-52ef88299f87</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>To µTracer</value>
+      <footprint>myDevices:0527450897</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0110513-ed51-45bd-92a7-62505dad4d0f</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>Firmware</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36732fdf-d691-42b3-9af8-0bc9234d6e35</tstamps>
+    </comp>
+    <comp ref="J303">
+      <value>To PSU Board</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b524211-fdf7-421a-bbbe-dc3182e0362e</tstamps>
+    </comp>
+    <comp ref="L301">
+      <value>10µH 1A</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-20xx_HandSoldering</footprint>
+      <fields>
+        <field name="Comments">VLS252012HBX-100M-1</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Comments" value="VLS252012HBX-100M-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0324834-af98-4588-ba58-cec5ebc5224d</tstamps>
+    </comp>
+    <comp ref="Q301">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="myDevices" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a399950e-1995-4360-b78a-67055597d170</tstamps>
+    </comp>
+    <comp ref="Q302">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="myDevices" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12ae0e86-8997-457c-bddd-5c24a65beff0</tstamps>
+    </comp>
+    <comp ref="Q303">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="myDevices" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55718a24-5e3b-4c69-85da-c8f3789152ca</tstamps>
+    </comp>
+    <comp ref="Q304">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="myDevices" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>633c23ef-bca7-49db-a4a5-e376368c3340</tstamps>
+    </comp>
+    <comp ref="Q305">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="myDevices" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeee899d-065d-4c56-94c2-ac9527800a28</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>49.9Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9df842a5-7d0f-4956-b8b3-b499ac329d64</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8783ac43-6de3-451f-b195-b2ae2663633d</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>560Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50a185bc-674e-4c14-bfd7-3e020239554a</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>22kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6427c9b7-89c8-4be9-863c-fb53d3585861</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>105393c0-adc6-4bd4-8767-5024b095ddae</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71c7db3e-7df2-4eae-b2fd-c3fc671d59c3</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8376bbce-bcdb-42d7-9698-3e7be1f3ae23</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d3068a7-2609-4145-ae7b-d3a1a3edcfa0</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66bb834e-e757-42c7-bedf-06b0047665c7</tstamps>
+    </comp>
+    <comp ref="R310">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f1d4db-3f59-4a44-ad4d-e906fdffffad</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>1MΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff36cb46-f6c9-438f-bf37-f9dd515118e3</tstamps>
+    </comp>
+    <comp ref="R312">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a351a7db-8b9c-48d9-8c6e-71894279c072</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a67d9df1-8ee7-4e47-b485-be5585275f10</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>2.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efbd65bd-074a-4e34-9fc0-808430c1014c</tstamps>
+    </comp>
+    <comp ref="R315">
+      <value>1.8kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e425db6b-d61f-4f19-b66d-560bcbed8498</tstamps>
+    </comp>
+    <comp ref="R316">
+      <value>2.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71307b9a-dec5-4cbe-ac19-b14e848626d4</tstamps>
+    </comp>
+    <comp ref="R317">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a2474c-b25a-4a1d-998e-e93314139d5b</tstamps>
+    </comp>
+    <comp ref="R318">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>593dd5a8-3b61-4125-8a2b-bf67c5dd02b1</tstamps>
+    </comp>
+    <comp ref="R319">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d94d591f-02b4-4f69-afbc-582945a0abeb</tstamps>
+    </comp>
+    <comp ref="R320">
+      <value>560Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ddbf236-3515-4f34-9a66-0780bcb2f405</tstamps>
+    </comp>
+    <comp ref="R321">
+      <value>560Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e921c9-9afe-4b38-afa0-ace94eae71a3</tstamps>
+    </comp>
+    <comp ref="SW301">
+      <value>RESET</value>
+      <footprint>myDevices:Tactile_sw_SMD_side_01</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa7c7639-c581-47c5-99cb-3eeb13938b40</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>TPS54302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps54302.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS54302" description="3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95fa6d4b-7373-4575-9d3f-a7289a89f0b6</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>ATMEGA328P-AU</value>
+      <footprint>digikey-footprints:TQFP-32_7x7mm</footprint>
+      <libsource lib="myDevices" part="ATMEGA328P-AU_Arduino" description="IC MCU 8BIT 32KB FLASH 32TQFP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bcf866a-73c6-4171-bced-2c5528885be2</tstamps>
+    </comp>
+    <comp ref="U303">
+      <value>INA219AIDCNR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/INA219AIDCNR/296-23770-1-ND/1952550</field>
+        <field name="Description">IC CURRENT MONITOR 1% SOT23-8</field>
+        <field name="Digi-Key_PN">296-23770-1-ND</field>
+        <field name="Family">PMIC - Current Regulation/Management</field>
+        <field name="MPN">INA219AIDCNR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Current-Regulation-Management" part="INA219AIDCNR" description="IC CURRENT MONITOR 1% SOT23-8"/>
+      <property name="Digi-Key_PN" value="296-23770-1-ND"/>
+      <property name="MPN" value="INA219AIDCNR"/>
+      <property name="Category" value="Integrated Circuits (ICs)"/>
+      <property name="Family" value="PMIC - Current Regulation/Management"/>
+      <property name="DK_Datasheet_Link" value="http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/texas-instruments/INA219AIDCNR/296-23770-1-ND/1952550"/>
+      <property name="Description" value="IC CURRENT MONITOR 1% SOT23-8"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb51088-a768-4690-92c2-e4023cf240d7</tstamps>
+    </comp>
+    <comp ref="U304">
+      <value>Display_IPS_1.3_SPI</value>
+      <footprint>myDevices:Display_IPS_1.3_SPI</footprint>
+      <datasheet>https://www.buydisplay.com/download/manual/ER-TFTM013-1_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Comments">https://www.buydisplay.com/1-3-inch-tft-ips-lcd-display-module-240x240-spi-for-arduino-raspberry-pi</field>
+      </fields>
+      <libsource lib="myDevices" part="Display_IPS_1.3_SPI" description=""/>
+      <property name="Comments" value="https://www.buydisplay.com/1-3-inch-tft-ips-lcd-display-module-240x240-spi-for-arduino-raspberry-pi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bc04e69-6d05-45c8-9182-3ef5b6b998d3</tstamps>
+    </comp>
+    <comp ref="Y301">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HeaterMCU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaf58b4a-c4e8-4903-be75-14c4107e32c2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS54302">
+      <description>3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps54302.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54302</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps54302.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="BOOT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Current-Regulation-Management" part="INA219AIDCNR">
+      <description>IC CURRENT MONITOR 1% SOT23-8</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA219AIDCNR</field>
+        <field name="Footprint">digikey-footprints:SOT-23-8</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219</field>
+        <field name="Digi-Key_PN">296-23770-1-ND</field>
+        <field name="MPN">INA219AIDCNR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Current Regulation/Management</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina219</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/INA219AIDCNR/296-23770-1-ND/1952550</field>
+        <field name="Description">IC CURRENT MONITOR 1% SOT23-8</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VS" type="power_in"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="A1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="ATMEGA328P-AU_Arduino">
+      <description>IC MCU 8BIT 32KB FLASH 32TQFP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA328P-AU_Arduino</field>
+        <field name="Footprint">digikey-footprints:TQFP-32_7x7mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D3(PWM)/INT1" type="bidirectional"/>
+        <pin num="2" name="D4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="XTAL1" type="bidirectional"/>
+        <pin num="8" name="XTAL2" type="bidirectional"/>
+        <pin num="9" name="D5(PWM)" type="bidirectional"/>
+        <pin num="10" name="D6(PWM)" type="bidirectional"/>
+        <pin num="11" name="D7" type="bidirectional"/>
+        <pin num="12" name="D8" type="bidirectional"/>
+        <pin num="13" name="D9(PWM)" type="bidirectional"/>
+        <pin num="14" name="D10(PWM)/SS" type="bidirectional"/>
+        <pin num="15" name="D11(PWM)/MOSI" type="bidirectional"/>
+        <pin num="16" name="D12/MISO" type="bidirectional"/>
+        <pin num="17" name="D13/SCK" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="A6" type="input"/>
+        <pin num="20" name="AREF" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="A7" type="input"/>
+        <pin num="23" name="A0" type="bidirectional"/>
+        <pin num="24" name="A1" type="bidirectional"/>
+        <pin num="25" name="A2" type="bidirectional"/>
+        <pin num="26" name="A3" type="bidirectional"/>
+        <pin num="27" name="A4/SDA" type="bidirectional"/>
+        <pin num="28" name="A5/SCL" type="bidirectional"/>
+        <pin num="29" name="~{RESET}" type="bidirectional"/>
+        <pin num="30" name="D0/RX" type="bidirectional"/>
+        <pin num="31" name="D1/TX" type="bidirectional"/>
+        <pin num="32" name="D2/INT0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myDevices" part="Display_IPS_1.3_SPI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Display_IPS_1.3_SPI</field>
+        <field name="Footprint">myDevices:Display_IPS_1.3_SPI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+        <pin num="5" name="RES" type="input"/>
+        <pin num="6" name="DC" type="input"/>
+        <pin num="7" name="BLK" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Switch.kicad_sym</uri>
+    </library>
+    <library logical="dk_PMIC-Current-Regulation-Management">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\3rdparty/digikey-symbols/dk_PMIC-Current-Regulation-Management.lib</uri>
+    </library>
+    <library logical="myDevices">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\3rdparty/myDevices/myDevices.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C315" pin="2" pintype="passive"/>
+      <node ref="C316" pin="2" pintype="passive"/>
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D320" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB301" pin="2" pintype="passive"/>
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J302" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="U302" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U302" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U302" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U303" pin="4" pinfunction="VS" pintype="power_in"/>
+      <node ref="U304" pin="2" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/FlagHeater">
+      <node ref="J301" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q301" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R310" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="CUR_LIM">
+      <node ref="J303" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q302" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R313" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="DISP_DC">
+      <node ref="U302" pin="14" pinfunction="D10(PWM)/SS" pintype="bidirectional"/>
+      <node ref="U304" pin="6" pinfunction="DC" pintype="input"/>
+    </net>
+    <net code="5" name="DISP_RST">
+      <node ref="U302" pin="13" pinfunction="D9(PWM)" pintype="bidirectional"/>
+      <node ref="U304" pin="5" pinfunction="RES" pintype="input"/>
+    </net>
+    <net code="6" name="DISP_SCL">
+      <node ref="U302" pin="17" pinfunction="D13/SCK" pintype="bidirectional"/>
+      <node ref="U304" pin="3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="7" name="DISP_SDA">
+      <node ref="U302" pin="15" pinfunction="D11(PWM)/MOSI" pintype="bidirectional"/>
+      <node ref="U304" pin="4" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="8" name="FLAG_CUR_LIM_FILT">
+      <node ref="C314" pin="2" pintype="passive"/>
+      <node ref="R312" pin="1" pintype="passive"/>
+      <node ref="U302" pin="9" pinfunction="D5(PWM)" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="FLAG_HEATER_FILT">
+      <node ref="C312" pin="2" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+      <node ref="U302" pin="32" pinfunction="D2/INT0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="FLAG_HIGH_VOLTAGE">
+      <node ref="J301" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U302" pin="12" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="GNDPWR">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="C308" pin="1" pintype="passive"/>
+      <node ref="C310" pin="2" pintype="passive"/>
+      <node ref="C311" pin="1" pintype="passive"/>
+      <node ref="C312" pin="1" pintype="passive"/>
+      <node ref="C314" pin="1" pintype="passive"/>
+      <node ref="C315" pin="1" pintype="passive"/>
+      <node ref="C316" pin="1" pintype="passive"/>
+      <node ref="D321" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D322" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J301" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J301" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J303" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J303" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q301" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q302" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q303" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q304" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q305" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+      <node ref="R317" pin="2" pintype="passive"/>
+      <node ref="R318" pin="2" pintype="passive"/>
+      <node ref="R319" pin="2" pintype="passive"/>
+      <node ref="SW301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="7" pinfunction="A0" pintype="input"/>
+      <node ref="U303" pin="8" pinfunction="A1" pintype="input"/>
+      <node ref="U304" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="INA_CSENS">
+      <node ref="C317" pin="1" pintype="passive"/>
+      <node ref="J303" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U303" pin="2" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="13" name="INA_VSENS">
+      <node ref="C317" pin="2" pintype="passive"/>
+      <node ref="J303" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U303" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="14" name="LED_HEATER">
+      <node ref="Q305" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R319" pin="1" pintype="passive"/>
+      <node ref="U302" pin="25" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="LED_HIGH_VOLTAGE">
+      <node ref="R320" pin="2" pintype="passive"/>
+      <node ref="U302" pin="23" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="LED_LIMIT_I">
+      <node ref="Q304" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R318" pin="1" pintype="passive"/>
+      <node ref="U302" pin="1" pinfunction="D3(PWM)/INT1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LED_LIMIT_V">
+      <node ref="Q303" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R317" pin="1" pintype="passive"/>
+      <node ref="U302" pin="2" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="LED_MCU_STATUS">
+      <node ref="R321" pin="2" pintype="passive"/>
+      <node ref="U302" pin="10" pinfunction="D6(PWM)" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(C303-Pad1)">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="L301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="20" name="Net-(C303-Pad2)">
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="U301" pin="6" pinfunction="BOOT" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C304-Pad2)">
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="FB301" pin="1" pintype="passive"/>
+      <node ref="L301" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C306-Pad1)">
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="U302" pin="7" pinfunction="XTAL1" pintype="bidirectional"/>
+      <node ref="Y301" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C309-Pad1)">
+      <node ref="C309" pin="1" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="U301" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(C309-Pad2)">
+      <node ref="C309" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C310-Pad1)">
+      <node ref="C310" pin="1" pintype="passive"/>
+      <node ref="U302" pin="8" pinfunction="XTAL2" pintype="bidirectional"/>
+      <node ref="Y301" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C311-Pad2)">
+      <node ref="C311" pin="2" pintype="passive"/>
+      <node ref="U302" pin="20" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(C313-Pad1)">
+      <node ref="C313" pin="1" pintype="passive"/>
+      <node ref="J302" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(C313-Pad2)">
+      <node ref="C313" pin="2" pintype="passive"/>
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="SW301" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U302" pin="29" pinfunction="~{RESET}" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(D301-Pad1)">
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D302-Pad1)">
+      <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D305" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D303-Pad1)">
+      <node ref="D303" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D306" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D304-Pad1)">
+      <node ref="D304" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D307" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D305-Pad1)">
+      <node ref="D305" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D308" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D306-Pad1)">
+      <node ref="D306" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D309" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D307-Pad1)">
+      <node ref="D307" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D310" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D308-Pad1)">
+      <node ref="D308" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D311" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D309-Pad1)">
+      <node ref="D309" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D312" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D310-Pad1)">
+      <node ref="D310" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D313" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D311-Pad1)">
+      <node ref="D311" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D314" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D312-Pad1)">
+      <node ref="D312" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D315" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D313-Pad1)">
+      <node ref="D313" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D316" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D314-Pad1)">
+      <node ref="D314" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D317" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D315-Pad1)">
+      <node ref="D315" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D318" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D316-Pad1)">
+      <node ref="D316" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D319" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D317-Pad1)">
+      <node ref="D317" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R314" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D318-Pad1)">
+      <node ref="D318" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R315" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D319-Pad1)">
+      <node ref="D319" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R316" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D320-Pad1)">
+      <node ref="D320" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D322" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R321" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D321-Pad2)">
+      <node ref="D321" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R320" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J302-Pad4)">
+      <node ref="J302" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U302" pin="30" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(J302-Pad5)">
+      <node ref="J302" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U302" pin="31" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(Q301-Pad3)">
+      <node ref="Q301" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q302-Pad3)">
+      <node ref="Q302" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q303-Pad3)">
+      <node ref="Q303" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R314" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q304-Pad3)">
+      <node ref="Q304" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q305-Pad3)">
+      <node ref="Q305" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R316" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="OUT_EN">
+      <node ref="J303" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U302" pin="26" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="PSU_EN">
+      <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U302" pin="24" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="SCL">
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="U302" pin="28" pinfunction="A5/SCL" pintype="bidirectional"/>
+      <node ref="U303" pin="5" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="60" name="SDA">
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="U302" pin="27" pinfunction="A4/SDA" pintype="bidirectional"/>
+      <node ref="U303" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="VDC">
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="C308" pin="2" pintype="passive"/>
+      <node ref="D302" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D303" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D304" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J303" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="3" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="62" name="unconnected-(J301-Pad3)">
+      <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J301-Pad4)">
+      <node ref="J301" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J302-Pad2)">
+      <node ref="J302" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U301-Pad5)">
+      <node ref="U301" pin="5" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U302-Pad11)">
+      <node ref="U302" pin="11" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U302-Pad16)">
+      <node ref="U302" pin="16" pinfunction="D12/MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U302-Pad19)">
+      <node ref="U302" pin="19" pinfunction="A6" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U302-Pad22)">
+      <node ref="U302" pin="22" pinfunction="A7" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U304-Pad7)">
+      <node ref="U304" pin="7" pinfunction="BLK" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

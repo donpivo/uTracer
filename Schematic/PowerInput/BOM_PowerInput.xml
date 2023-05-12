@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bjorn\OneDrive\Projects\µTracer\Schematic\PowerInput\PowerInput.kicad_sch</source>
+    <date>Fri May 12 08:12:02 2023</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerInput.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>47nF X2</value>
+      <footprint>Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7014d5d-6cdc-407d-9d40-bfbcfcc63437</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>470µF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e68d4bfc-28fa-42c7-b027-c6bcd125d5f6</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>089898c7-9db1-4682-8c8f-00decb94c3b6</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70136163-4f53-41d7-882b-f0f35103ac20</tstamps>
+    </comp>
+    <comp ref="F101">
+      <value>T1A</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fdb1ab7-a395-4266-85a2-25fa696d4799</tstamps>
+    </comp>
+    <comp ref="F102">
+      <value>T3.15A</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5a34003-8dee-4e76-b736-499dfe2beb63</tstamps>
+    </comp>
+    <comp ref="F103">
+      <value>T3.15A</value>
+      <footprint>Fuse:Fuse_Littelfuse_372_D8.50mm</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce2953e9-0933-419e-bd26-fa039db09593</tstamps>
+    </comp>
+    <comp ref="FB101">
+      <value>Würth 74279223560</value>
+      <footprint>Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65332850-1a77-474b-a20c-770d217595d9</tstamps>
+    </comp>
+    <comp ref="FB102">
+      <value>Würth 74279223560</value>
+      <footprint>Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cadfc194-56aa-4a1e-a1ef-41d398cc2835</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>Chassis</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11df9c08-382c-456e-87de-e48da6c6525a</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2112f84-ce91-44ee-b1a5-2e150835466c</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa5c9e0-db95-4335-be1d-ae022fcd804c</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0813991-fabd-43fc-9e89-15043601cb11</tstamps>
+    </comp>
+    <comp ref="H105">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ac7a916-e5dd-490e-a6de-7547342451ce</tstamps>
+    </comp>
+    <comp ref="H106">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27f2bb5c-8190-4243-af12-334b79aa372e</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>PSU1 Pri</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17e09d7c-505a-4279-8063-3f2eabae2a68</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>PSU2 Pri</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d20d122-fdfa-43c5-b478-5e06dc4e4ffc</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>PSU1 Sec</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>669b9df9-29c8-47bd-bc18-75fea8bb6001</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>To MainBoard</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb9a1ee7-4a01-46aa-993a-907dbb957e40</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>230VAC In</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm_3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-3P-BK-S_C430602.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da975b97-0baf-47f3-8077-d75c4a8fcc32</tstamps>
+    </comp>
+    <comp ref="J106">
+      <value>Power LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aec3258c-d2c8-41e4-9e04-d3b38b776eae</tstamps>
+    </comp>
+    <comp ref="J107">
+      <value>Power switch</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b71407e-e1dc-4f1f-923a-631b69ab66ac</tstamps>
+    </comp>
+    <comp ref="J108">
+      <value>PSU2 Sec</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506c6583-acbd-4640-aac1-8b49b7955648</tstamps>
+    </comp>
+    <comp ref="J109">
+      <value>To Heater PSU</value>
+      <footprint>myDevices:TerminalBlock_LCSC_P5.08mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2301061509_DIBO-DB128L-5-08-2P-BK-S_C430601.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e559997f-6d88-4181-a7a4-7a73793ba097</tstamps>
+    </comp>
+    <comp ref="L101">
+      <value>330µH 3.3A</value>
+      <footprint>Inductor_THT:L_Radial_D24.4mm_P23.70mm_Murata_1400series</footprint>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8ab91b4-c7d8-4541-a014-a259a2368fb9</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>3.9kΩ 1/2W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e086607b-1ae4-45b0-94d2-66a82e98b6e8</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>3.9kΩ 1/2W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3c5ed1c-d1ef-418f-a6e7-dc02ecea879d</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>3.9kΩ 1/2W</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bf87e16-6095-42c2-96c5-11ab13421b90</tstamps>
+    </comp>
+    <comp ref="RV101">
+      <value>20D431K</value>
+      <footprint>Varistor:RV_Disc_D21.5mm_W5.6mm_P10mm</footprint>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerInput.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1973cd8-1afa-4611-b9f8-5efec7eeb4b0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\bjorn\OneDrive\Electronics\KiCad\symbols/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/HeaterPSU_0V">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB102" pin="2" pintype="passive"/>
+      <node ref="J109" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/HeaterPSU_19V">
+      <node ref="FB101" pin="2" pintype="passive"/>
+      <node ref="J109" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/MainBoard_19V">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/PSU1_19V">
+      <node ref="F101" pin="2" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/PSU2_0V">
+      <node ref="FB102" pin="1" pintype="passive"/>
+      <node ref="J108" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/PSU2_19V">
+      <node ref="F103" pin="2" pintype="passive"/>
+      <node ref="J108" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Earth">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H101" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J106" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="F102" pin="2" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RV101" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C101-Pad2)">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J107" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV101" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D102-Pad2)">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(F101-Pad1)">
+      <node ref="F101" pin="1" pintype="passive"/>
+      <node ref="L101" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(F102-Pad1)">
+      <node ref="F102" pin="1" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(F103-Pad1)">
+      <node ref="F103" pin="1" pintype="passive"/>
+      <node ref="FB101" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J105-Pad3)">
+      <node ref="J105" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J107" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J106-Pad2)">
+      <node ref="J106" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
